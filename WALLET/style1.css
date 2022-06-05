@@ -1,0 +1,57 @@
+.btn{
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid black;
+    transition: background-color 2s;
+}
+.btn:hover {
+    background-color: #212F3D ;
+}
+.btn.mm{
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid black;
+    transition: background-color 2s;
+}
+.btn:hover {
+    background-color: #212F3D ;
+}
+.btn.md{
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid black;
+    transition: background-color 2s;
+}
+.btn:hover {
+    background-color: #212F3D ;
+}
+.btn.mc{
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid black;
+    transition: background-color 2s;
+}
+.btn:hover {
+    background-color: #D7DBDD ;
+}
+.btn.mv{
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid black;
+    transition: background-color 2s;
+}
+.btn:hover {
+    background-color: #D7DBDD ;
+}
+
+

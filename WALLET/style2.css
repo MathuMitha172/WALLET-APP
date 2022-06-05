@@ -1,0 +1,272 @@
+*
+{
+    padding: 5px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+.menu-bar
+{
+    background: black;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:white;
+
+}
+.active, .menu-bar ul li:hover
+{
+    background: #414a4c;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 80px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+    width: 80px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+    border-bottom: none;
+}
+.sub-menu-3
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li
+{
+    width: 75px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child
+{
+    border-bottom: none;
+}
+.sub-menu-4
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-4
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li
+{
+    width: 75px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child
+{
+    border-bottom: none;
+}
+body
+{
+    margin:0px;
+    padding: 0px;;
+}
+.container
+{
+    position:relative;
+    width:1180px;
+    height: 300px;
+    margin:250px auto;
+}
+.container .box
+{
+    position: relative;
+    width:calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #ff0;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon
+{
+    position: absolute;
+    top:5px;
+    left:5px;
+    width: 95%;
+    height:92%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.container .box .icon .fa-solid
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fa-solid
+{
+    font-size: 50px;
+
+}
+.container .box .content
+{
+    position: absolute;
+    top:90%;
+    height: calc(75% - 75px);
+    text-align: center;
+    padding: 10%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 1px;
+}
+.container .box:hover .content
+{
+    top:90px;
+}
+.container .box .content h3
+{
+    margin: 0x;
+    padding: 0px;
+    color:#fff;
+    font-size: 25px;
+}
+.container .box .content p
+{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+
+}
+.container .box:nth-child(1) .icon
+{
+    background: #319635;
+}
+.container .box:nth-child(1)
+{
+    background: #4caf50;
+}
+.container .box:nth-child(2) .icon
+{
+    background: #d03852;
+}
+.container .box:nth-child(2)
+{
+    background: #f54967;
+}
+.container .box:nth-child(3) .icon
+{
+    background: #23798e;
+}
+.container .box:nth-child(3)
+{
+    background: #328fa5;
+}
+
+
+
+
+
+
